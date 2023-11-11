@@ -1,0 +1,128 @@
+<div [@routerTransition]>
+    <app-page-header [heading]="'Employee Management'"></app-page-header>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <form role="form">
+                <fieldset class="form-group">
+                    <label>Full Name</label>
+                    <input class="form-control" />
+                   
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <label>NIC</label>
+                    <input type="text" class="form-control"  />
+                </fieldset>
+
+            
+                <fieldset class="form-group mt-4">
+                    <label>Mobile No</label>
+                    <input type="text" class="form-control"  />
+                </fieldset>
+
+
+                <div class="form-group mt-4">
+                    <label for="exampleFormControlSelect1">Select Civil Status</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Select Civil Status</option>
+                      <option>Married</option>
+                      <option>Unmarried</option>
+                     
+                    </select>
+                  </div>
+
+                
+                  <div class="form-group mt-4">
+                    <label for="exampleFormControlSelect1">Designation</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Select Designation</option>
+                      <option>Married</option>
+                      <option>Unmarried</option>
+                     
+                    </select>
+                  </div>
+            
+
+
+
+                  <div class="mt-4">
+                    
+                <button class="btn btn-success btn-add" type="submit">Add</button>
+                <button class="btn btn-warning button-set" type="reset">Update</button>
+                <button class="btn btn-danger button-set" type="reset">Delete</button>
+                  </div>
+              
+
+            </form>
+        </div>
+        <div class="col-lg-6">
+          
+            <form role="form">
+
+                <fieldset class="form-group">
+                    <label>Calling Name</label>
+                    <input class="form-control" />
+                   
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <label>Date Of Birth</label>
+                    <input type="date" class="form-control"  />
+                </fieldset>
+
+
+                <fieldset class="form-group mt-4">
+                    <label for="exampleInputFile">Photo Image</label> &NonBreakingSpace;
+                    <input class="form-control-file" id="exampleInputFile" type="file" />
+                </fieldset>
+
+                
+               
+
+
+                
+
+                <fieldset class="form-group mt-4">
+                    <label>Gender</label>
+                    <div class="radio">
+                        <label>
+                            <input checked="" id="optionsRadios1" name="optionsRadios" type="radio" value="option1" />
+                           Male
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input id="optionsRadios2" name="optionsRadios" type="radio" value="option2" /> Female
+                        </label>
+                    </div>
+                    
+                </fieldset>
+              
+
+                <div class="form-group mt-4">
+                    <label>Branch</label>
+                    <select class="form-control">
+                        <option>Select the Branch</option>
+                        <option>Colombo</option>
+                        <option>Kandy</option>
+                        
+                    </select>
+                </div>
+             
+              
+
+        
+            </form>
+
+       
+
+          
+
+          
+
+         
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
